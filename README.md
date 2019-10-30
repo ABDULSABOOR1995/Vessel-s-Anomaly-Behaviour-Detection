@@ -38,5 +38,14 @@ First of all, I performed some basic exploratory data analysis on data to achiev
 
 ![Screenshot_26](https://user-images.githubusercontent.com/46135898/67838665-97214080-fb13-11e9-9199-372e4678a8e5.png)
 
+<a id='l2'></a>
+## 2. Data Cleaning:
+After performing data analysis, we clean data to make it good for training. In data cleaning process, We'll fill missing values contained in the data by using linear interpolation method.
+
+![Screenshot_28](https://user-images.githubusercontent.com/46135898/67839598-d355a080-fb15-11e9-940c-8d1a125f5dae.png)
+
+After applying <b> linear interpolation method.</b>
+
+![Screenshot_29](https://user-images.githubusercontent.com/46135898/67839600-d51f6400-fb15-11e9-94d5-572ee74c7b8b.png)
 
 
