@@ -9,6 +9,9 @@ So in this project we'll perform some basic exploratory data analysis on AIS dat
 # Data Source
 https://marinecadastre.gov/ais/
 We performed analysis on <b>AIS_2017_01_Zone10</b> dataset.
+## Explanation:
+Now we explain every step of our project in detail with screenshots.
+
 <a id='toc'></a>
 ## Table of Content:
 
