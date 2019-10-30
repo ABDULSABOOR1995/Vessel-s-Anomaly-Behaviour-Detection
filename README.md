@@ -19,3 +19,7 @@ Now we explain every step of our project in detail with screenshots.
 [2. Data Cleaning](#l2)<br>
 [3. Calculating the track of a vessel (one MMSI represents one single vessel)](#l3)<br>
 [4. Build SVR Model to identify vessel's anomaly behaviour detection](#l4)
+
+<a id='l1'></a>
+## 1. Exploratory Data Analysis of csv file (January, UTM Zone 10, 2017):
+First of all, I performed some basic exploratory data analysis on data to achieve certain insights and statistical measures. I also draw visualization by graphing latitude & longitude points onto a map using geopandas & folium library.
