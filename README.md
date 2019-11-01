@@ -24,22 +24,22 @@ Now we explain every step of our project in detail with screenshots.
 
 <a id='l1'></a>
 ## 1. Exploratory Data Analysis of csv file (January, UTM Zone 10, 2017):
-First of all, I performed some basic exploratory data analysis on data to achieve certain insights and statistical measures. I also draw visualization by graphing latitude & longitude points onto a map using geopandas & folium library.
+First of all, I performed some basic exploratory data analysis on data to achieve certain insights and statistical measures. I also draw visualization by graphing latitude & longitude points onto a map using geopandas & folium library.<br><br><br>
 
 ![Screenshot_21](https://user-images.githubusercontent.com/46135898/67838628-87a1f780-fb13-11e9-85b6-fc5899ab3fc4.png)
-
+<br><br><br>
 ![Screenshot_22](https://user-images.githubusercontent.com/46135898/67838641-8e306f00-fb13-11e9-9b2f-e50ed03a25c2.png)
-
+<br><br><br>
 ![Screenshot_23](https://user-images.githubusercontent.com/46135898/67838644-9092c900-fb13-11e9-98bb-8e7aa0ecef2a.png)
-
+<br><br><br>
 ![Screenshot_24](https://user-images.githubusercontent.com/46135898/67838648-91c3f600-fb13-11e9-93e1-28c71ff8e773.png)
-
+<br><br><br>
 ![Screenshot_27](https://user-images.githubusercontent.com/46135898/67838655-938db980-fb13-11e9-8b6d-66627d6e3c7a.png)
-
+<br><br><br>
 ![Screenshot_25](https://user-images.githubusercontent.com/46135898/67838663-95f01380-fb13-11e9-977b-b5de438c44bf.png)
-
+<br><br><br>
 ![Screenshot_26](https://user-images.githubusercontent.com/46135898/67838665-97214080-fb13-11e9-9199-372e4678a8e5.png)
-
+<br><br><br>
 <a id='l2'></a>
 ## 2. Data Cleaning:
 After performing data analysis, we clean data to make it good for training. In data cleaning process, We'll fill missing values contained in the data by using linear interpolation method.
