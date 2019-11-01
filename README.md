@@ -48,8 +48,7 @@ First of all, We performed some basic exploratory data analysis on data to achie
 
 <a id='l2'></a>
 ## 2. Data Cleaning:
-After performing data analysis, we clean data to make it good for training. In data cleaning process, We'll fill missing values contained in the data by using linear interpolation method.
-
+After performing data analysis, we clean data to make it good for training. In the data cleaning process, We'll fill missing values contained in the data by using the linear interpolation method.
 <br><br><br>
 
 ![Screenshot_28](https://user-images.githubusercontent.com/46135898/67839598-d355a080-fb15-11e9-940c-8d1a125f5dae.png)
