@@ -23,7 +23,7 @@ Now we explain every step of our project in detail with screenshots.
 
 <a id='l1'></a>
 ## 1. Exploratory Data Analysis of csv file (January, UTM Zone 10, 2017):
-First of all, I performed some basic exploratory data analysis on data to achieve certain insights and statistical measures. I also draw visualization by graphing latitude & longitude points onto a map using geopandas & folium library.<br><br><br>
+First of all, We performed some basic exploratory data analysis on data to achieve certain insights and statistical measures. I also draw visualization by graphing latitude & longitude points onto a map using geopandas & folium library.<br><br><br>
 
 ![Screenshot_21](https://user-images.githubusercontent.com/46135898/67838628-87a1f780-fb13-11e9-85b6-fc5899ab3fc4.png)
 <br><br><br>
