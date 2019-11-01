@@ -44,7 +44,7 @@ After performing data analysis, we clean data to make it good for training. In d
 
 ![Screenshot_28](https://user-images.githubusercontent.com/46135898/67839598-d355a080-fb15-11e9-940c-8d1a125f5dae.png)
 
-After applying <b> linear interpolation method.</b>
+So these are the missing values exist in every column. But after applying <b>linear interpolation method</b> for filling missing data, we have the following result.
 
 ![Screenshot_29](https://user-images.githubusercontent.com/46135898/67839600-d51f6400-fb15-11e9-94d5-572ee74c7b8b.png)
 
