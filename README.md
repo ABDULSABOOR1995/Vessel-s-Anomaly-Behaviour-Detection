@@ -91,8 +91,7 @@ First, we separate year, month, day, hr & minute from BaseDateTime and join them
 
 <br><br><br>
 
-We have selected <b> SOG </b> as a target variable. So now to find most important features to make best model we'll find correlation of all varibles with SOG. 
-<br><br><br>
+We have selected <b>SOG</b> as a target variable. So now to find the most important features to make the best model we'll find the correlation of all variables with SOG.<br><br><br>
 
 ![Screenshot_35](https://user-images.githubusercontent.com/46135898/68021230-aa264300-fcc2-11e9-9fbb-233abf4867cd.png)
 
