@@ -42,10 +42,22 @@ First of all, I performed some basic exploratory data analysis on data to achiev
 ## 2. Data Cleaning:
 After performing data analysis, we clean data to make it good for training. In data cleaning process, We'll fill missing values contained in the data by using linear interpolation method.
 
+
 ![Screenshot_28](https://user-images.githubusercontent.com/46135898/67839598-d355a080-fb15-11e9-940c-8d1a125f5dae.png)
 
 So these are the missing values exist in every column. But after applying <b>linear interpolation method</b> for filling missing data, we have the following result.
 
 ![Screenshot_29](https://user-images.githubusercontent.com/46135898/67839600-d51f6400-fb15-11e9-94d5-572ee74c7b8b.png)
 
+<a id='l3'></a>
+##  3. Calculating the track of a vessel:
+Now We'll calculate track of the top 3 vessels and visualize them, Their MMSI are given below.
+1- 367390380<br>
+2- 366940480<br>
+3- 352844000
+
+
+![Screenshot_30](https://user-images.githubusercontent.com/46135898/68018086-118bc500-fcba-11e9-84b6-983158f8153e.png)
+![Screenshot_31](https://user-images.githubusercontent.com/46135898/68018089-12bcf200-fcba-11e9-9e26-8fcee1a34171.png)
+![Screenshot_32](https://user-images.githubusercontent.com/46135898/68018091-13ee1f00-fcba-11e9-8ac5-90751a6b2a3a.png)
 
