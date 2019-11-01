@@ -61,7 +61,7 @@ So these are the missing values that exist in every column. But after applying <
 
 <a id='l3'></a>
 ##  3. Calculating the track of a vessel:
-Now We'll calculate track of the top 3 vessels and visualize them, Their MMSI are given below.<br>
+Now We'll calculate track of the top 3 vessels and visualize them, Their MMSI is given below.<br>
 1- 367390380<br>
 2- 366940480<br>
 3- 352844000
