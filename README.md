@@ -87,64 +87,76 @@ After doing all of the above data analysis, we'll make ML model to identify vess
 First we seperate year, month, day, hr & minute from BaseDateTime and join them in track1(dataframe) as feature.
 <br><br><br>
 
-sc#33
+![Screenshot_33](https://user-images.githubusercontent.com/46135898/68021223-a7c3e900-fcc2-11e9-8f28-4f16eca47d8b.png)
+
 <br><br><br>
 
-sc#34
+![Screenshot_34](https://user-images.githubusercontent.com/46135898/68021227-a8f51600-fcc2-11e9-8d94-530f51e0f695.png)
+
 <br><br><br>
 
 We have selected <b> SOG </b> as a target variable. So now to find most important features to make best model we'll find correlation of all varibles with SOG. 
 <br><br><br>
 
-sc#35
+![Screenshot_35](https://user-images.githubusercontent.com/46135898/68021230-aa264300-fcc2-11e9-9fbb-233abf4867cd.png)
+
 <br><br><br>
 
-sc#36
+![Screenshot_36](https://user-images.githubusercontent.com/46135898/68021231-ab577000-fcc2-11e9-8fb7-c21a7c1d1886.png)
+
 <br><br><br>
 
 Here we can clearly observe that <b> 'LAT', 'hour','Cargo', 'COG'</b> are the features that are highly corelated with SOG, so we select all of them as training featrures.
 <br><br><br>
 
-sc#37
+![Screenshot_37](https://user-images.githubusercontent.com/46135898/68021233-ad213380-fcc2-11e9-941a-112273734242.png)
+
 <br><br><br>
 
 Then we apply train-test-split on the data for model's training and testing purpose.
 <br><br><br>
 
-sc#38
+![Screenshot_38](https://user-images.githubusercontent.com/46135898/68021234-ae526080-fcc2-11e9-8941-21c957df00d8.png)
+
 <br><br><br>
 
 After all, we'll make SVR model to find anomaly behaviour of vessel.
 <br><br><br>
 
-sc#39
+![Screenshot_39](https://user-images.githubusercontent.com/46135898/68021235-af838d80-fcc2-11e9-84d7-b337d47fb9f7.png)
+
 <br><br><br>
 
 The SVR model that we have created is giving 85% accuracy on test data that is good.
 <br><br><br>
 
-sc#40
+![Screenshot_40](https://user-images.githubusercontent.com/46135898/68021237-b01c2400-fcc2-11e9-8640-b65ac293a636.png)
+
 <br><br><br>
 
 Now we plot original data(SVG) & predicted data to analyse the predicted result.
 <br><br><br>
 
-sc#41
+![Screenshot_41](https://user-images.githubusercontent.com/46135898/68021238-b27e7e00-fcc2-11e9-9c02-cd7b26bb9902.png)
+
 <br><br><br>
 
 Well, Its time to find anomaly behaviour of vessels. To do that, first we find difference between actual and predicted values and make their dataframe.
 <br><br><br>
 
-sc#42
+![Screenshot_42](https://user-images.githubusercontent.com/46135898/68021241-b4484180-fcc2-11e9-9eca-4d512d49b9bc.png)
+
 <br><br><br>
 
 The values having larger difference are anamolous.
 <br><br><br>
 
-sc#43
+![Screenshot_43](https://user-images.githubusercontent.com/46135898/68021244-b5796e80-fcc2-11e9-9275-c040880b6dac.png)
+
 <br><br><br>
 
-sc#44
+![Screenshot_44](https://user-images.githubusercontent.com/46135898/68021245-b6aa9b80-fcc2-11e9-8fb8-d3001ea97a62.png)
+
 <br><br><br>
 
 <a id='conclusion'></a>
