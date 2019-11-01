@@ -101,21 +101,24 @@ We have selected <b>SOG</b> as a target variable. So now to find the most import
 
 <br><br><br>
 
-Here we can clearly observe that <b> 'LAT', 'hour','Cargo', 'COG'</b> are the features that are highly corelated with SOG, so we select all of them as training featrures.
+Here we can observe that <b>'LAT', 'hour','Cargo', 'COG'</b> are the features that are highly correlated with SOG, so we select all of them as training features.
+
 <br><br><br>
 
 ![Screenshot_37](https://user-images.githubusercontent.com/46135898/68021233-ad213380-fcc2-11e9-941a-112273734242.png)
 
 <br><br><br>
 
-Then we apply train-test-split on the data for model's training and testing purpose.
+Then we apply train-test-split on the data for the model's training and testing purpose.
+
 <br><br><br>
 
 ![Screenshot_38](https://user-images.githubusercontent.com/46135898/68021234-ae526080-fcc2-11e9-8941-21c957df00d8.png)
 
 <br><br><br>
 
-After all, we'll make SVR model to find anomaly behaviour of vessel.
+After all, we'll make the SVR model to find the anomaly behavior of the vessel.
+
 <br><br><br>
 
 ![Screenshot_39](https://user-images.githubusercontent.com/46135898/68021235-af838d80-fcc2-11e9-84d7-b337d47fb9f7.png)
@@ -123,27 +126,30 @@ After all, we'll make SVR model to find anomaly behaviour of vessel.
 <br><br><br>
 
 The SVR model that we have created is giving 85% accuracy on test data that is good.
+
 <br><br><br>
 
 ![Screenshot_40](https://user-images.githubusercontent.com/46135898/68021237-b01c2400-fcc2-11e9-8640-b65ac293a636.png)
 
 <br><br><br>
 
-Now we plot original data(SVG) & predicted data to analyse the predicted result.
+Now we plot original data(SVG) & predicted data to analyze the predicted result.
+
 <br><br><br>
 
 ![Screenshot_41](https://user-images.githubusercontent.com/46135898/68021238-b27e7e00-fcc2-11e9-9c02-cd7b26bb9902.png)
 
 <br><br><br>
 
-Well, Its time to find anomaly behaviour of vessels. To do that, first we find difference between actual and predicted values and make their dataframe.
+Well, Its time to find anomaly behavior of vessels. To do that, first, we find the difference between actual and predicted values and make their data frame.
 <br><br><br>
 
 ![Screenshot_42](https://user-images.githubusercontent.com/46135898/68021241-b4484180-fcc2-11e9-9eca-4d512d49b9bc.png)
 
 <br><br><br>
 
-The values having larger difference are anamolous.
+The values having a larger difference are anomalous.
+
 <br><br><br>
 
 ![Screenshot_43](https://user-images.githubusercontent.com/46135898/68021244-b5796e80-fcc2-11e9-9275-c040880b6dac.png)
@@ -156,5 +162,5 @@ The values having larger difference are anamolous.
 
 <a id='conclusion'></a>
 ## Conclusion:
-So in this way, we can predict any feature of AIS data and then find anomaly behaviour of any vessel.
+So in this way, we can predict any feature of AIS data and then find anomaly behavior of any vessel.
 
