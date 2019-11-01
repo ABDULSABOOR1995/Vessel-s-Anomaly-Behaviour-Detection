@@ -20,6 +20,8 @@ Now we explain every step of our project in detail with screenshots.
 [3. Calculating the track of a vessel (one MMSI represents one single vessel)](#l3)<br>
 [4. Build SVR Model to identify vessel's anomaly behaviour detection](#l4)
 
+[Conclusion](#conclusion)
+
 <a id='l1'></a>
 ## 1. Exploratory Data Analysis of csv file (January, UTM Zone 10, 2017):
 First of all, I performed some basic exploratory data analysis on data to achieve certain insights and statistical measures. I also draw visualization by graphing latitude & longitude points onto a map using geopandas & folium library.
@@ -66,4 +68,48 @@ Now We'll calculate track of the top 3 vessels and visualize them, Their MMSI ar
 ![Screenshot_32](https://user-images.githubusercontent.com/46135898/68018091-13ee1f00-fcba-11e9-8ac5-90751a6b2a3a.png)
 
 
+<a id='l3'></a>
+## 4. Build SVR Model to identify vessel's anomaly behaviour detection:
+After doing all of the above data analysis, we'll make ML model to identify vessel's anomaly behaviour detection. We select SVR model to find anomaly behaviour of a vessel.
+
+First we seperate year, month, day, hr & minute from BaseDateTime and join them in track1(dataframe) as feature.
+
+sc#33
+sc#34
+
+We have selected <b> SOG </b> as a target variable. So now to find most important features to make best model we'll find correlation of all varibles with SOG. 
+
+sc#35
+sc#36
+
+Here we can clearly observe that <b> 'LAT', 'hour','Cargo', 'COG'</b> are the features that are highly corelated with SOG, so we select all of them as training featrures.
+sc#37
+
+Then we apply train-test-split on the data for model's training and testing purpose.
+
+sc#38
+
+After all, we'll make SVR model to find anomaly behaviour of vessel.
+
+sc#39
+
+The SVR model that we have created is giving 85% accuracy on test data that is good.
+
+sc#40
+
+Now we plot original data(SVG) & predicted data to analyse the predicted result.
+
+sc#41
+
+Well, Its time to find anomaly behaviour of vessels. To do that, first we find difference between actual and predicted values and make their dataframe.
+
+sc#42
+
+The values having larger difference are anamolous.
+
+sc#43
+sc#44
+<a id='conclusion'></a>
+## Conclusion:
+So in this way, we can predict any feature of AIS data and then find anomaly behaviour of any vessel.
 
