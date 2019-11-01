@@ -79,10 +79,9 @@ Now We'll calculate track of the top 3 vessels and visualize them, Their MMSI is
 
 <a id='l3'></a>
 ## 4. Build SVR Model to identify vessel's anomaly behaviour detection:
-After doing all of the above data analysis, we'll make ML model to identify vessel's anomaly behaviour detection. We select SVR model to find anomaly behaviour of a vessel.
+After doing all of the above data analysis, we'll make the ML model to identify the vessel's anomaly behavior detection. We select the SVR model to find the anomaly behavior of a vessel.
 
-First we seperate year, month, day, hr & minute from BaseDateTime and join them in track1(dataframe) as feature.
-<br><br><br>
+First, we separate year, month, day, hr & minute from BaseDateTime and join them in track1(data frame) as a feature.<br><br><br>
 
 ![Screenshot_33](https://user-images.githubusercontent.com/46135898/68021223-a7c3e900-fcc2-11e9-8f28-4f16eca47d8b.png)
 
